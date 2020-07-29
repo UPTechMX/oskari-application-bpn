@@ -42,10 +42,6 @@ import 'oskari-loader!oskari-frontend/packages/statistics/statsgrid/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/olcs/map3dtiles/bundle.js'
 import 'oskari-loader!oskari-frontend/packages/mapping/dimension-change/bundle.js';
 
-// oskari-frontend-contrib bundles
-import 'oskari-loader!oskari-frontend-contrib/packages/download-basket/bundle.js';
-import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/content-editor/bundle.js';
-
 // Lazy loader
 
 // only one of these will be shown based on the app
@@ -67,6 +63,7 @@ import 'oskari-lazy-loader?admin-layereditor!oskari-frontend/packages/admin/bund
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/admin-layerselector/bundle.js';
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/bb/bundle.js';
 
+// extra bundles for municipality
 import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/content-editor/bundle.js';
 import 'oskari-loader!oskari-frontend-contrib/packages/download-basket/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/language-selector/bundle.js';
