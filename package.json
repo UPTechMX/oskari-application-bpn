@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geoenvo/oskari-application-dps.git"
+    "url": "git+https://github.com/geoenvo/oskari-application-bpn.git"
   },
   "private": true
 }
