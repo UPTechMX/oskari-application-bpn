@@ -11,7 +11,7 @@ Here are the steps to setup the build environment:
 3. Go to `oskari-frontend` directory and run `npm install`.
 4. Clone the contrib repository next to the oskari-frontend repository: `git clone https://github.com/oskariorg/oskari-frontend-contrib.git`
 5. Go to `oskari-frontend-contrib` directory and run `npm install`.
-6. Clone the application repository (this one) next to the oskari-frontend and contrib repositories: `git clone https://github.com/geoenvo/oskari-application-dps`
+6. Clone the application repository (this one) next to the oskari-frontend and contrib repositories: `git clone https://github.com/geoenvo/oskari-application-bpn`
 7. Run `npm run build -- --env.appdef=wbidp:applications`
 8. Make sure that you have set your oskari-server to use the freshly built wbidp frontend by setting it's resource base in **../oskari-server/webapps/oskari-front.xml**:
     `<Set name="resourceBase">/path/to/oskari-application-dps</Set>`
