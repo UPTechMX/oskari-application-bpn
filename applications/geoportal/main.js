@@ -68,4 +68,8 @@ import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/content-ed
 import 'oskari-loader!oskari-frontend-contrib/packages/download-basket/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/language-selector/bundle.js';
 
+import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/content-editor/bundle.js';
+import 'oskari-loader!oskari-frontend-contrib/packages/download-basket/bundle.js';
+import 'oskari-loader!oskari-frontend/packages/framework/bundle/language-selector/bundle.js';
+
 import './css/overwritten.css';

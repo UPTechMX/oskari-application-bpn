@@ -6,8 +6,8 @@
     "Oskari"
   ],
   "dependencies": {
-    "oskari-frontend": "file:../oskari-frontend",
-    "oskari-frontend-contrib": "file:../oskari-frontend-contrib"
+    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#1.55.2",
+    "oskari-frontend-contrib": "https://git@github.com/oskariorg/oskari-frontend-contrib.git#1.55.2"
   },
   "scripts": {
     "build": "node ./node_modules/oskari-frontend/node_modules/webpack/bin/webpack.js --config ./node_modules/oskari-frontend/webpack.config.js --mode production",
