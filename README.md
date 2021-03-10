@@ -14,7 +14,7 @@ Here are the steps to setup the build environment:
 6. Clone the application repository (this one) next to the oskari-frontend and contrib repositories: `git clone https://github.com/geoenvo/oskari-application-bpn`
 7. Run `npm run build -- --env.appdef=wbidp:applications`
 8. Make sure that you have set your oskari-server to use the freshly built wbidp frontend by setting it's resource base in **../oskari-server/webapps/oskari-front.xml**:
-    `<Set name="resourceBase">/path/to/oskari-application-dps</Set>`
+    `<Set name="resourceBase">/path/to/oskari-application-bpn</Set>`
 9. Modify your **oskari-ext.properties** to set the wbidp application:
     `oskari.client.version=dist/wbidp`
 10. Fire up your oskari-server and WB IDP should start up!
