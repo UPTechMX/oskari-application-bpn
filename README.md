@@ -1,24 +1,25 @@
-# ![alt text](../master/applications/geoportal/logo.png "Oskari") Sample application
+# WB IDP - Integrated Data Portal
 
-This is an example that can be used as a template for building Oskari application frontend.
+This is the WB IDP - Integrated Data Portal, an Oskari geoportal.
 
-Click the "Use this template" button on the repository to create a copy of the files under your username and start customizing it.
-
-This application can be seen in http://dev.oskari.org. For backend see https://github.com/oskariorg/sample-server-extension.
-
-## Setup
+## Setup WB IDP
 
 Here are the steps to setup the build environment:
 
 1. Make sure you have the command line programs `git`, and `node` version 8 or greater
-2. Clone the application repository (this one): `git clone https://github.com/oskariorg/sample-application.git`
-3. Run `npm install`
+2. Clone `oskari-frontend` repository: `git clone https://github.com/oskariorg/oskari-frontend.git`
+3. Go to `oskari-frontend` directory and run `npm install`.
+4. Clone the contrib repository next to the oskari-frontend repository: `git clone https://github.com/oskariorg/oskari-frontend-contrib.git`
+5. Go to `oskari-frontend-contrib` directory and run `npm install`.
+6. Clone the application repository (this one) next to the oskari-frontend and contrib repositories: `git clone https://github.com/geoenvo/oskari-application-bpn`
+7. Run `npm run build -- --env.appdef=wbidp:applications`
+8. Make sure that you have set your oskari-server to use the freshly built wbidp frontend by setting it's resource base in **../oskari-server/webapps/oskari-front.xml**:
+    `<Set name="resourceBase">/path/to/oskari-application-bpn</Set>`
+9. Modify your **oskari-ext.properties** to set the wbidp application:
+    `oskari.client.version=dist/wbidp`
+10. Fire up your oskari-server and WB IDP should start up!
 
-## Creating your own Oskari application
-
-After you have done the basic setup (above), the application can be built directly from this repo with eg. `npm run build`. The output will be under `dist/`.
-
-See the main [oskari-frontend repo](https://github.com/oskariorg/oskari-frontend#readme) for detailed instructions about the build parameters.
+# Oskari
 
 ### App composition
 
