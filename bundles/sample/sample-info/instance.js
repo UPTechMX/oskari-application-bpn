@@ -24,7 +24,7 @@ Oskari.clazz.defineES('Oskari.sample.info.SampleInfoBundleInstance', class Sampl
                     priority: 5,
                     getTitle: () => this.loc('guidedTour.title'),
                     getContent: () => this.loc('guidedTour.message'),
-                    getPositionRef: () => jQuery('#login'),
+                    getPositionRef: () => jQuery('#pltools > mdb-navbar > nav > nav > div > ul > li > a'),
                     positionAlign: 'right'
                 };
                 this.sandbox.request(this, requestBuilder(delegate));
