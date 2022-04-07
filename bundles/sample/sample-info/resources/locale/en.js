@@ -5,7 +5,7 @@ Oskari.registerLocalization(
         "value": {
             "guidedTour": {
                 "title": "Logging in",
-                "message": "This is an example Oskari application. Use \"user\" as both username and password to log in as a regular user. And use \"admin\" as username and \"oskari\" as password to log in as admin."
+                "message": "To make use of the Urban Planning Tools (UPT), you need to be logged in, as well as belonging to the 'uptadmin' and 'uptuser' roles/organizations. Once logged in, click on the 'Tools' menu, then select either UrbanPerformance (UP) or SuitAbility(ST) to start the respective tool!"
             }
         }
     });
