@@ -21,7 +21,7 @@ Oskari.clazz.defineES('Oskari.sample.info.SampleInfoBundleInstance', class Sampl
             if (requestBuilder && this.sandbox.hasHandler('Guidedtour.AddToGuidedTourRequest')) {
                 const delegate = {
                     bundleName: this.getName(),
-                    priority: 1000,
+                    priority: 100,
                     getTitle: () => this.loc('guidedTour.title'),
                     getContent: () => this.loc('guidedTour.message'),
                     getPositionRef: () => jQuery('#pltools > mdb-navbar > nav > nav > div > ul > li > a'),
