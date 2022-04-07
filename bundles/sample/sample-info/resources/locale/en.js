@@ -6,7 +6,7 @@ Oskari.registerLocalization(
         "value": {
             "guidedTour": {
                 "title": "Using the UPT",
-                "message": "To make use of the Urban Planning Tools (UPT), you need to be logged in, as well as belong to the 'uptadmin' and 'uptuser' roles/organizations. Once logged in, click on the 'Tools' menu, then select either UrbanPerformance (UP) or SuitAbility(ST) to start the respective tool!"
+                "message": "Once logged in, you can click on the \"Tools\" menu and select Urban Performance (UP) or SuitAbility (ST) to start each tool, respectively."
             }
         }
     });
